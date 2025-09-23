@@ -4,8 +4,8 @@
     <div class="flex flex-col md:flex-row gap-6">
       <div class="md:w-1/2 bg-gray-800 p-4 rounded-lg">
         <h3 class="font-semibold mb-2">Message me here</h3>
-        <p class="text-gray-400">@eliasdev</p>
-        <p class="text-gray-400">hi.elias@dev.me</p>
+        <p class="text-gray-400">@shfylqlby</p>
+        <p class="text-gray-400">shofiyulqalby@gmail.com</p>
       </div>
       <form class="md:w-1/2 flex flex-col gap-3 bg-gray-800 p-4 rounded-lg">
         <input type="text" placeholder="Name" class="p-2 rounded bg-gray-700 text-gray-200"/>
