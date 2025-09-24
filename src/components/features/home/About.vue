@@ -43,16 +43,16 @@
           </p>
           
           <p class="text-sm md:text-base">
-            Transforming my creativity and knowledge into websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.
+            {{ $t("about.desc2") }}
           </p>
         </div>
 
         <div class="pt-4">
-          <a href="#about">
+          <router-link :to="{ path: '/about-me' }" class="hover:text-purple-400 font-bold" @click="toggleMenu">
           <button class="border border-purple-500 text-purple-500 px-6 py-2 hover:bg-purple-500 hover:text-white transition-all duration-300 text-sm">
             {{ $t("about.button") }} →
           </button>
-          </a>
+          </router-link>
         </div>
       </div>
 
@@ -78,3 +78,7 @@
     <div class="absolute bottom-0 left-0 w-full h-px bg-gray-800"></div>
   </section>
 </template>
+<script setup>
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
+</script>

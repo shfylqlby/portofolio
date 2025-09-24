@@ -8,11 +8,11 @@
           </h2>
           <div class="w-32 h-px bg-purple-500 mb-8"></div>
         </div>
-      <a href="#project">
+      <router-link :to="{ path: '/project' }" class="hover:text-purple-400 font-bold">
       <button class="text-gray-400 hover:text-purple-500 transition text-sm">
         {{ $t("project.viewAll") }} →
       </button>
-      </a>
+      </router-link>
     </div>
 
     <!-- Projects Grid -->
@@ -38,9 +38,11 @@
           <p class="text-gray-400 text-sm mb-4">{{ $t("project.Tools.stack") }}</p>
           
           <div class="flex gap-3">
+            <a href="https://qcnet-tools.vercel.app/" target="_blank">
             <button class="text-purple-500 underline hover:text-purple-400 transition">
               {{ $t("project.live") }}
             </button>
+            </a>
           </div>
         </div>
       </div>
@@ -60,10 +62,11 @@
           
           <h4 class="font-bold text-lg text-white mb-2">{{ $t("project.Mikrotik.title") }}</h4>
           <p class="text-gray-400 text-sm mb-4">{{ $t("project.Mikrotik.stack") }}</p>
-          
+          <a href="https://github.com/shfylqlby/mikrotik" target="_blank">
           <button class="text-purple-500 underline hover:text-purple-400 transition">
             {{ $t("project.live") }}
           </button>
+          </a>
         </div>
       </div>
 
@@ -77,13 +80,13 @@
         <!-- Content -->
         <div class="p-4">
           <div class="flex gap-2 mb-2 text-xs">
-            <span class="text-gray-400">CSS</span>
-            <span class="text-gray-400">Express</span>
-            <span class="text-gray-400">Node.js</span>
+            <span class="text-gray-400">Coming Soon</span>
+            <span class="text-gray-400">Coming Soon</span>
+            <span class="text-gray-400">Coming Soon</span>
           </div>
           
-          <h4 class="font-bold text-lg text-white mb-2">{{ $t("project.kahoot.title") }}</h4>
-          <p class="text-gray-400 text-sm mb-4">{{ $t("project.kahoot.stack") }}</p>
+          <h4 class="font-bold text-lg text-white mb-2">{{ $t("project.empty.title") }}</h4>
+          <p class="text-gray-400 text-sm mb-4">{{ $t("project.empty.stack") }}</p>
           
           <button class="text-purple-500 underline hover:text-purple-400 transition">
             {{ $t("project.live") }}

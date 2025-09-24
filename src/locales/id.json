@@ -21,14 +21,15 @@
   },
   "about": {
     "title": "tentang-saya",
-    "desc": "Saya seorang network engineer developer yang saat ini sedang mencoba mengembangkan website portofolio.",
+    "desc": "Saya adalah seorang insinyur jaringan dan pengembang web yang bersemangat dalam membangun aplikasi web yang efisien dan mengoptimalkan sistem jaringan. Saya senang mempelajari teknologi baru dan menciptakan proyek-proyek yang menyelesaikan masalah nyata.",
+    "desc2": "Saya selalu menjelajahi ide-ide dan teknologi baru, melakukan eksperimen dengan proyek-proyek, dan mencari peluang untuk menerapkan keterampilan saya.",
     "button": "Baca selengkapnya →"
   },
   "project": {
     "title": "proyek",
-    "chertNodes": { "title": "ChertNodes", "stack": "HTML, CSS, Python Flask" },
-    "protectX": { "title": "ProtectX", "stack": "React, Express, MongoDB" },
-    "kahoot": { "title": "Kahoot Answers Viewer", "stack": "JS, CSS, HTML" },
+    "Tools": { "title": "QCNet Tools", "stack": "JS, CSS, HTML" },
+    "Mikrotik": { "title": "Mikrotik Script", "stack": "RouterOS Script" },
+    "empty": { "title": "Coming Soon", "stack": "Coming Soon" },
     "live": "Lihat →",
     "viewAll": "Lihat semua →"
   },

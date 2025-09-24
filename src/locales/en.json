@@ -22,14 +22,15 @@
   "about": {
     "title": "about-me",
     "name": "Hello, I'm Qalby!",
-    "desc": "I am a network engineer developer who is currently trying to develop a portfolio website.",
+    "desc": "I’m a network engineer and web developer passionate about building efficient web applications and optimizing network systems. I enjoy learning new technologies and creating projects that solve real problems.",
+    "desc2": "I’m always exploring new ideas and technologies, experimenting with projects, and looking for opportunities to apply my skills.",
     "button": "Read more →"
   },
   "project": {
     "title": "projects",
     "Tools": { "title": "QCNet Tools", "stack": "JS, CSS, HTML" },
     "Mikrotik": { "title": "Mikrotik Script", "stack": "RouterOS Script" },
-    "kahoot": { "title": "Kahoot Answers Viewer", "stack": "JS, CSS, HTML" },
+    "empty": { "title": "Coming Soon", "stack": "Coming Soon" },
     "live": "Live →",
     "viewAll": "View all →"
   },

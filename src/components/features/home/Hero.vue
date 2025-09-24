@@ -19,11 +19,11 @@
         </p>
 
         <!-- Button -->
-        <a href="#contact">
+         <router-link :to="{ path: '/about-me' }" class="hover:text-purple-400 font-bold">
         <button class="bg-purple-500 text-white px-6 py-2 rounded-lg hover:bg-purple-600 transition">
           {{ $t("hero.button") }}
         </button>
-        </a>
+        </router-link>
       </div>
 
       <!-- Image + Badge -->
