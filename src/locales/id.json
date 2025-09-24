@@ -1,0 +1,60 @@
+{
+   "nav": {
+    "home": "beranda",
+    "project": "proyek",
+    "about": "tentang",
+    "contacts": "kontak"
+  },
+  "home": {
+    "welcome": "Selamat Datang di Portofolio Saya"
+  },
+  "hero": {
+    "title1": "Qalby adalah seorang",
+    "highlight1": "Network Engineer",
+    "and": "dan",
+    "highlight2": "Penggemar Web Dev",
+    "subtitle": "Saya menyukai segala hal yang berhubungan dengan IT.",
+    "button": "Hubungi Saya",
+    "working": "Sedang bekerja di QCNET",
+    "student": "mahasiswa teknik komputer di Universitas Diponegoro",
+    "years": "periode pendidikan saat ini 2025"
+  },
+  "about": {
+    "title": "tentang-saya",
+    "desc": "Saya seorang network engineer developer yang saat ini sedang mencoba mengembangkan website portofolio.",
+    "button": "Baca selengkapnya →"
+  },
+  "project": {
+    "title": "proyek",
+    "chertNodes": { "title": "ChertNodes", "stack": "HTML, CSS, Python Flask" },
+    "protectX": { "title": "ProtectX", "stack": "React, Express, MongoDB" },
+    "kahoot": { "title": "Kahoot Answers Viewer", "stack": "JS, CSS, HTML" },
+    "live": "Lihat →",
+    "viewAll": "Lihat semua →"
+  },
+  "quote": {
+    "text": "Jangan biarkan kebisingan dari pendapat orang lain menenggelamkan suara hati Anda sendiri.",
+    "author": "Steve Jobs"
+  },
+  "skills": {
+    "title": "keahlian",
+    "languages": { "title": "Bahasa Pemrograman"},
+    "databases": { "title": "Basis Data"},
+    "tools": { "title": "Alat"},
+    "network": { "title": "Jaringan"}
+  },
+  "contact": {
+    "title": "kontak",
+    "messageBox": {
+      "title": "Hubungi saya di sini",
+      "user": "@shfylqlby",
+      "email": "shofiyulqalby@gmail.com"
+    },
+    "form": {
+      "name": "Nama",
+      "email": "Email",
+      "message": "Pesan",
+      "button": "Kirim"
+    }
+  }
+}

@@ -3,16 +3,16 @@
     <div class="container mx-auto flex justify-between items-center p-4">
       <!-- Logo -->
       <div class="flex items-center gap-2 font-bold text-lg">
-        <span>⎆</span>
+        <span><img src="/src/assets/icon.gif" alt="Icon Image" width="60" height="60"></span>
         <span>Qalby</span>
       </div>
 
       <!-- Desktop Menu -->
       <ul class="hidden md:flex gap-8 font-mono text-sm items-center">
-        <li><a href="#home" class="hover:text-purple-400 font-bold">#home</a></li>
-        <li><a href="#project" class="hover:text-purple-400">#project</a></li>
-        <li><a href="#about-me" class="hover:text-purple-400">#about-me</a></li>
-        <li><a href="#contacts" class="hover:text-purple-400">#contacts</a></li>
+        <li><a href="#home" class="hover:text-purple-400 font-bold">#{{ $t('nav.home') }}</a></li>
+        <li><a href="#project" class="hover:text-purple-400">#{{ $t('nav.project') }}</a></li>
+        <li><a href="#about-me" class="hover:text-purple-400">#{{ $t('nav.about') }}</a></li>
+        <li><a href="#contacts" class="hover:text-purple-400">#{{ $t('nav.contacts') }}</a></li>
 
         <!-- Language Dropdown -->
         <li class="relative">
@@ -25,7 +25,7 @@
           >
             <li>
               <button
-                @click="setLang('EN')"
+                @click="setLang('en')"
                 class="block w-full text-left px-4 py-2 hover:bg-gray-700"
               >
                 EN
@@ -33,7 +33,7 @@
             </li>
             <li>
               <button
-                @click="setLang('ID')"
+                @click="setLang('id')"
                 class="block w-full text-left px-4 py-2 hover:bg-gray-700"
               >
                 ID
@@ -55,17 +55,17 @@
       <div v-if="isOpen" class="fixed top-0 right-0 w-64 h-full bg-gray-900 p-6 flex flex-col gap-6">
         <div class="flex justify-between items-center mb-6">
           <div class="flex items-center gap-2 font-bold text-lg">
-            <span>⎆</span>
+            <span><img src="/src/assets/icon.gif" alt="Icon Image" width="60" height="60"></span>
             <span>Qalby</span>
           </div>
           <button @click="toggleMenu" class="text-xl">✕</button>
         </div>
 
         <ul class="flex flex-col gap-6 font-mono text-lg">
-          <li><a href="#home" class="hover:text-purple-400 font-bold">#home</a></li>
-          <li><a href="#project" class="hover:text-purple-400">#project</a></li>
-          <li><a href="#about-me" class="hover:text-purple-400">#about-me</a></li>
-          <li><a href="#contacts" class="hover:text-purple-400">#contacts</a></li>
+          <li><a href="#home" class="hover:text-purple-400 font-bold">#{{ $t('nav.home') }}</a></li>
+          <li><a href="#project" class="hover:text-purple-400">#{{ $t('nav.project') }}</a></li>
+          <li><a href="#about-me" class="hover:text-purple-400">#{{ $t('nav.about') }}</a></li>
+          <li><a href="#contacts" class="hover:text-purple-400">#{{ $t('nav.contacts') }}</a></li>
 
           <!-- Language Dropdown (mobile) -->
           <li class="relative">
@@ -78,7 +78,7 @@
             >
               <li>
                 <button
-                  @click="setLang('EN')"
+                  @click="setLang('en')"
                   class="block w-full text-left px-4 py-2 hover:bg-gray-700"
                 >
                   EN
@@ -86,7 +86,7 @@
               </li>
               <li>
                 <button
-                  @click="setLang('ID')"
+                  @click="setLang('id')"
                   class="block w-full text-left px-4 py-2 hover:bg-gray-700"
                 >
                   ID
@@ -96,12 +96,22 @@
           </li>
         </ul>
 
-        <!-- Social Icons -->
-        <div class="mt-auto flex gap-6 text-2xl">
-          <a href="#" class="hover:text-purple-400"></a> <!-- GitHub -->
-          <a href="#" class="hover:text-purple-400"></a> <!-- Dribbble -->
-          <a href="#" class="hover:text-purple-400"></a> <!-- Figma -->
-        </div>
+<!-- Social Icons -->
+<div class="mt-auto flex gap-6 text-2xl">
+  <!-- GitHub -->
+  <a href="https://github.com/shfylqlby" target="_blank" class="hover:text-purple-400">
+    <i class="fab fa-github"></i>
+  </a>
+  <!-- LinkedIn -->
+  <a href="https://linkedin.com/in/shfylqlby" target="_blank" class="hover:text-purple-400">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  <!-- Instagram -->
+  <a href="https://instagram.com/shfylqlby" target="_blank" class="hover:text-purple-400">
+    <i class="fab fa-instagram"></i>
+  </a>
+</div>
+
       </div>
     </transition>
   </nav>
@@ -109,6 +119,7 @@
 
 <script setup>
 import { ref } from "vue"
+import { useI18n } from "vue-i18n"
 
 const isOpen = ref(false)
 const toggleMenu = () => {
@@ -116,7 +127,8 @@ const toggleMenu = () => {
 }
 
 // Language dropdown state
-const currentLang = ref("EN")
+const { locale } = useI18n()
+const currentLang = ref(locale.value.toUpperCase())
 const langDropdownOpen = ref(false)
 
 const toggleLangDropdown = () => {
@@ -124,10 +136,9 @@ const toggleLangDropdown = () => {
 }
 
 const setLang = (lang) => {
-  currentLang.value = lang
+  locale.value = lang
+  currentLang.value = lang.toUpperCase()
   langDropdownOpen.value = false
-  // di sini lo bisa trigger logic terjemahan konten, misal i18n
-  console.log("Language switched to:", lang)
 }
 </script>
 

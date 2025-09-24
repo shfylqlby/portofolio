@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "home": "home",
+    "project": "project",
+    "about": "about",
+    "contacts": "contacts"
+  },
+  "home": {
+    "welcome": "Welcome to My Portfolio"
+  },
+  "hero": {
+    "title1": "Qalby is a",
+    "highlight1": "Network Engineer",
+    "and": "and",
+    "highlight2": "Web Dev Enthusiast",
+    "subtitle": "I like anything related to IT.",
+    "button": "Contact Me",
+    "working": "Currently working on QCNET",
+    "student": "computer engineering student at Diponegoro University",
+    "years": "current education period 2025"
+  },
+  "about": {
+    "title": "about-me",
+    "name": "Hello, I'm Qalby!",
+    "desc": "I am a network engineer developer who is currently trying to develop a portfolio website.",
+    "button": "Read more →"
+  },
+  "project": {
+    "title": "projects",
+    "Tools": { "title": "QCNet Tools", "stack": "JS, CSS, HTML" },
+    "Mikrotik": { "title": "Mikrotik Script", "stack": "RouterOS Script" },
+    "kahoot": { "title": "Kahoot Answers Viewer", "stack": "JS, CSS, HTML" },
+    "live": "Live →",
+    "viewAll": "View all →"
+  },
+  "quote": {
+    "text": "Don’t let the noise of others’ opinions drown out your own inner voice.",
+    "author": "Steve Jobs"
+  },
+  "skills": {
+    "title": "skills",
+    "languages": { "title": "Languages"},
+    "databases": { "title": "Databases"},
+    "tools": { "title": "Tools"},
+    "network": { "title": "Network"}
+  },
+  "contact": {
+    "title": "contacts",
+      "message": "Message me here",
+      "name": "shfylqlby",
+      "email": "example@gmail.com",
+      "send": "Send me an email"
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "button": "Send"
+    }
+}

@@ -1,25 +1,96 @@
 <template>
   <section class="bg-gray-900 text-gray-300 px-6 md:px-20 py-10">
-    <h2 class="text-2xl md:text-3xl font-bold mb-6">#projects</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      <div class="bg-gray-800 p-4 rounded-lg hover:shadow-lg transition">
-        <h3 class="font-bold text-lg mb-2">ChertNodes</h3>
-        <p class="text-gray-400 text-sm mb-2">HTML, CSS, Python Flask</p>
-        <button class="text-purple-500 underline hover:text-purple-400">Live →</button>
-      </div>
-      <div class="bg-gray-800 p-4 rounded-lg hover:shadow-lg transition">
-        <h3 class="font-bold text-lg mb-2">ProtectX</h3>
-        <p class="text-gray-400 text-sm mb-2">React, Express, MongoDB</p>
-        <button class="text-purple-500 underline hover:text-purple-400">Live →</button>
-      </div>
-      <div class="bg-gray-800 p-4 rounded-lg hover:shadow-lg transition">
-        <h3 class="font-bold text-lg mb-2">Kahoot Answers Viewer</h3>
-        <p class="text-gray-400 text-sm mb-2">JS, CSS, HTML</p>
-        <button class="text-purple-500 underline hover:text-purple-400">Live →</button>
-      </div>
+    <!-- Header -->
+    <div class="flex justify-between items-center mb-8">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">
+            <span class="text-purple-500">#</span>{{ $t("project.title") }}
+          </h2>
+          <div class="w-32 h-px bg-purple-500 mb-8"></div>
+        </div>
+      <a href="#project">
+      <button class="text-gray-400 hover:text-purple-500 transition text-sm">
+        {{ $t("project.viewAll") }} →
+      </button>
+      </a>
     </div>
-    <div class="text-right mt-4">
-      <button class="text-purple-500 underline hover:text-purple-400">View all →</button>
+
+    <!-- Projects Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+      <!-- QCNet Tools Project -->
+      <div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300">
+        <!-- Project Image -->
+        <div class="h-32 bg-gray-700 flex items-center justify-center">
+          <img src="/src/assets/tools.png" alt="QCNet Tools" class="w-full h-full object-cover" />
+        </div>
+        
+        <!-- Content -->
+        <div class="p-4">
+          <div class="flex gap-2 mb-2 text-xs">
+            <span class="text-gray-400">IPV4 Calculator</span>
+            <span class="text-gray-400">IPV4 Calculator (Coming Soon)</span> 
+            <span class="text-gray-400">Bandwidth Calculator</span>
+            <span class="text-gray-400">DNS Checker</span>
+          </div>
+          
+          <h4 class="font-bold text-lg text-white mb-2">{{ $t("project.Tools.title") }}</h4>
+          <p class="text-gray-400 text-sm mb-4">{{ $t("project.Tools.stack") }}</p>
+          
+          <div class="flex gap-3">
+            <button class="text-purple-500 underline hover:text-purple-400 transition">
+              {{ $t("project.live") }}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- ProtectX Project -->
+      <div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300">
+        <!-- Project Image -->
+        <div class="h-32 bg-gray-700 flex items-center justify-center">
+          <img src="/src/assets/mikrotik-sc.png" alt="Mikrotik-Script" class="w-full h-full object-cover" />
+        </div>
+        
+        <!-- Content -->
+        <div class="p-4">
+          <div class="flex gap-2 mb-2 text-xs">
+            <span class="text-gray-400">RouterOS Script</span>
+          </div>
+          
+          <h4 class="font-bold text-lg text-white mb-2">{{ $t("project.Mikrotik.title") }}</h4>
+          <p class="text-gray-400 text-sm mb-4">{{ $t("project.Mikrotik.stack") }}</p>
+          
+          <button class="text-purple-500 underline hover:text-purple-400 transition">
+            {{ $t("project.live") }}
+          </button>
+        </div>
+      </div>
+
+      <!-- Kahoot Project -->
+      <div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300">
+        <!-- Project Image -->
+        <div class="h-32 bg-gray-700 flex items-center justify-center">
+          <img src="/src/assets/killua.png" alt="Masih Kosong" class="w-full h-full object-cover" />
+        </div>
+        
+        <!-- Content -->
+        <div class="p-4">
+          <div class="flex gap-2 mb-2 text-xs">
+            <span class="text-gray-400">CSS</span>
+            <span class="text-gray-400">Express</span>
+            <span class="text-gray-400">Node.js</span>
+          </div>
+          
+          <h4 class="font-bold text-lg text-white mb-2">{{ $t("project.kahoot.title") }}</h4>
+          <p class="text-gray-400 text-sm mb-4">{{ $t("project.kahoot.stack") }}</p>
+          
+          <button class="text-purple-500 underline hover:text-purple-400 transition">
+            {{ $t("project.live") }}
+          </button>
+        </div>
+      </div>
+
     </div>
   </section>
 </template>
