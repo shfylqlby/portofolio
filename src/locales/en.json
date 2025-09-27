@@ -28,6 +28,8 @@
   },
   "project": {
     "title": "projects",
+    "title2": "A collection of projects I've worked on, ranging from network administration tools to web applications. Each project represents a unique challenge and learning experience in my development journey.",
+    "project": "Network administration toolkit featuring IPv4 calculator, bandwidth calculator, DNS checker, and various networking utilities for network engineers.",
     "Tools": { "title": "QCNet Tools", "stack": "JS, CSS, HTML" },
     "Mikrotik": { "title": "Mikrotik Script", "stack": "RouterOS Script" },
     "empty": { "title": "Coming Soon", "stack": "Coming Soon" },
@@ -47,6 +49,7 @@
   },
   "contact": {
     "title": "contacts",
+    "messageMe": "My Social Media",
       "message": "Message me here",
       "name": "shfylqlby",
       "email": "example@gmail.com",

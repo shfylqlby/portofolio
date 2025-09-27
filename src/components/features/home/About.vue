@@ -49,28 +49,27 @@
 
         <div class="pt-4">
           <router-link :to="{ path: '/about-me' }" class="hover:text-purple-400 font-bold" @click="toggleMenu">
-          <button class="border border-purple-500 text-purple-500 px-6 py-2 hover:bg-purple-500 hover:text-white transition-all duration-300 text-sm">
-            {{ $t("about.button") }} →
-          </button>
+            <button class="border border-purple-500 text-purple-500 px-6 py-2 hover:bg-purple-500 hover:text-white transition-all duration-300 text-sm">
+              {{ $t("about.button") }} →
+            </button>
           </router-link>
         </div>
       </div>
 
       <!-- Image Container (Right Side) -->
       <div class="md:w-1/2 flex justify-center md:justify-end relative">
-        <!-- Decorative frame -->
-        <div class="absolute -top-4 -left-4 w-8 h-8 border-l-2 border-t-2 border-gray-600"></div>
-        <div class="absolute -bottom-4 -right-4 w-8 h-8 border-r-2 border-b-2 border-gray-600"></div>
-        
-        <!-- Main Image -->
         <div class="relative">
+          <!-- Main Image -->
           <img 
-            src="/src/assets/killua.png" 
+            src="/src/assets/about.jpg" 
             alt="About Me" 
             class="w-64 md:w-80 rounded-lg shadow-xl"
           />
-          
           <div class="absolute inset-0 border border-gray-700 rounded-lg pointer-events-none"></div>
+
+          <!-- Decorative Corners -->
+          <div class="absolute -top-2 -left-2 w-6 h-6 border-t-2 border-l-2 border-gray-600"></div>
+          <div class="absolute -bottom-2 -right-2 w-6 h-6 border-b-2 border-r-2 border-gray-600"></div>
         </div>
       </div>
     </div>
@@ -78,6 +77,7 @@
     <div class="absolute bottom-0 left-0 w-full h-px bg-gray-800"></div>
   </section>
 </template>
+
 <script setup>
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()

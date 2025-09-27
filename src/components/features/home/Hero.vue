@@ -19,7 +19,7 @@
         </p>
 
         <!-- Button -->
-         <router-link :to="{ path: '/about-me' }" class="hover:text-purple-400 font-bold">
+         <router-link :to="{ path: '/contacts' }" class="hover:text-purple-400 font-bold">
         <button class="bg-purple-500 text-white px-6 py-2 rounded-lg hover:bg-purple-600 transition">
           {{ $t("hero.button") }}
         </button>
@@ -28,7 +28,7 @@
 
       <!-- Image + Badge -->
       <div class="w-full md:w-1/2 flex justify-center md:justify-end relative">
-        <img src="/src/assets/killua.png" alt="Hero Image" class="w-56 md:w-80 rounded-lg shadow-lg"/>
+        <img src="/src/assets/hero.jpg" alt="Hero Image" class="w-56 md:w-80 rounded-lg shadow-lg"/>
         <!-- Badge overlay -->
         <div class="absolute bottom-2 left-1/2 md:left-auto md:right-4 transform -translate-x-1/2 md:translate-x-0 bg-gray-800 px-3 py-1 rounded-lg shadow text-purple-400 text-sm">
           ● {{ $t("hero.working") }}

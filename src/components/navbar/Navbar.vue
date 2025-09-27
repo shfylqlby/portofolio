@@ -13,18 +13,18 @@
           <router-link :to="{ path: '/' }" class="hover:text-purple-400 font-bold">{{ $t('nav.home') }}</router-link>
         </li>
         <li>
-          <router-link :to="{ path: '/project' }" class="hover:text-purple-400">{{ $t('nav.project') }}</router-link>
+          <router-link :to="{ path: '/project' }" class="hover:text-purple-400 font-bold">{{ $t('nav.project') }}</router-link>
         </li>
         <li>
-          <router-link :to="{ path: '/about-me' }" class="hover:text-purple-400">{{ $t('nav.about') }}</router-link>
+          <router-link :to="{ path: '/about-me' }" class="hover:text-purple-400 font-bold">{{ $t('nav.about') }}</router-link>
         </li>
         <li>
-          <router-link :to="{ path: '/contacts' }" class="hover:text-purple-400">{{ $t('nav.contacts') }}</router-link>
+          <router-link :to="{ path: '/contacts' }" class="hover:text-purple-400 font-bold">{{ $t('nav.contacts') }}</router-link>
         </li>
 
         <!-- Language Dropdown -->
         <li class="relative">
-          <button @click="toggleLangDropdown" class="flex items-center gap-1 hover:text-purple-400">
+          <button @click="toggleLangDropdown" class="flex items-center gap-1 hover:text-purple-400 font-bold">
             {{ currentLang }} <span class="text-xs">▼</span>
           </button>
           <ul v-if="langDropdownOpen" class="absolute right-0 mt-2 w-24 bg-gray-800 rounded shadow-lg overflow-hidden">
@@ -61,18 +61,18 @@
             <router-link :to="{ path: '/' }" class="hover:text-purple-400 font-bold" @click="toggleMenu">{{ $t('nav.home') }}</router-link>
           </li>
           <li>
-            <router-link :to="{ path: '/project' }" class="hover:text-purple-400" @click="toggleMenu">{{ $t('nav.project') }}</router-link>
+            <router-link :to="{ path: '/project' }" class="hover:text-purple-400 font-bold" @click="toggleMenu">{{ $t('nav.project') }}</router-link>
           </li>
           <li>
-            <router-link :to="{ path: '/about-me' }" class="hover:text-purple-400" @click="toggleMenu">{{ $t('nav.about') }}</router-link>
+            <router-link :to="{ path: '/about-me' }" class="hover:text-purple-400 font-bold" @click="toggleMenu">{{ $t('nav.about') }}</router-link>
           </li>
           <li>
-            <router-link :to="{ path: '/contacts' }" class="hover:text-purple-400" @click="toggleMenu">{{ $t('nav.contacts') }}</router-link>
+            <router-link :to="{ path: '/contacts' }" class="hover:text-purple-400 font-bold" @click="toggleMenu">{{ $t('nav.contacts') }}</router-link>
           </li>
 
           <!-- Language Dropdown (mobile) -->
           <li class="relative">
-            <button @click="toggleLangDropdown" class="flex items-center gap-1 hover:text-purple-400">
+            <button @click="toggleLangDropdown" class="flex items-center gap-1 hover:text-purple-400 font-bold">
               {{ currentLang }} <span class="text-xs">▼</span>
             </button>
             <ul v-if="langDropdownOpen" class="absolute left-0 mt-2 w-24 bg-gray-800 rounded shadow-lg overflow-hidden">

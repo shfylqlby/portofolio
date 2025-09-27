@@ -27,6 +27,8 @@
   },
   "project": {
     "title": "proyek",
+    "title2": "Kumpulan proyek yang telah saya kerjakan, mulai dari alat administrasi jaringan hingga aplikasi web. Setiap proyek mewakili tantangan dan pengalaman belajar yang unik dalam perjalanan pengembangan saya.",
+    "project": "Alat administrasi jaringan yang menampilkan kalkulator IPv4, kalkulator bandwidth, pemeriksa DNS, dan berbagai utilitas jaringan untuk insinyur jaringan.",
     "Tools": { "title": "QCNet Tools", "stack": "JS, CSS, HTML" },
     "Mikrotik": { "title": "Mikrotik Script", "stack": "RouterOS Script" },
     "empty": { "title": "Coming Soon", "stack": "Coming Soon" },
@@ -46,6 +48,7 @@
   },
   "contact": {
     "title": "kontak",
+    "messageMe": "Media Sosial Saya",
     "messageBox": {
       "title": "Hubungi saya di sini",
       "user": "@shfylqlby",
