@@ -49,7 +49,7 @@
 
           <!-- Social Links -->
           <div class="mt-6 pt-4 border-t border-gray-700">
-            <p class="text-sm text-gray-500 mb-3">Connect with me:</p>
+            <p class="text-sm text-gray-500 mb-3">{{ $t("contact.connect") }}</p>
             <div class="flex gap-3">
               <a href="https://github.com/shfylqlby" target="_blank" class="w-8 h-8 bg-gray-700 hover:bg-purple-500 rounded-lg flex items-center justify-center transition-colors">
                 <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">

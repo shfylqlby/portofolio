@@ -21,20 +21,38 @@
   },
   "about": {
     "title": "about-me",
+    "funfact": "my-fun-facts",
+    "funfactdesc1": "I can listen to the same song on repeat all day without getting bored.",
+    "funfactdesc2": "I take longer choosing what to eat than actually eating it.",
+    "funfactdesc3": "I always say 'one more episode'… then finish the whole season.",
+    "funfactdesc4": "I love making checklists, even for the simplest tasks.",
+    "funfactdesc5": "I keep way too many browser tabs open because 'I’ll read them later'.",
+    "funfactdesc6": "I reply to messages in my head and forget to actually send them.",
+    "who": "Who am I?",
     "name": "Hello, I'm Qalby!",
     "desc": "I’m a network engineer and web developer passionate about building efficient web applications and optimizing network systems. I enjoy learning new technologies and creating projects that solve real problems.",
     "desc2": "I’m always exploring new ideas and technologies, experimenting with projects, and looking for opportunities to apply my skills.",
+    "desc3": "I'm a network engineer based in Pekalongan. I specialize in routing, switching, IP management, VLAN configuration, as well as DNS, VPN, and network monitoring to build structured, stable, and scalable networks.",
     "button": "Read more →"
   },
   "project": {
     "title": "projects",
     "title2": "A collection of projects I've worked on, ranging from network administration tools to web applications. Each project represents a unique challenge and learning experience in my development journey.",
     "project": "Network administration toolkit featuring IPv4 calculator, bandwidth calculator, DNS checker, and various networking utilities for network engineers.",
+    "project1": "Collection of RouterOS scripts for automation, monitoring, and network management. Includes firewall rules, bandwidth management, and system optimization scripts.",
+    "project2": "This very website you're browsing! A modern, responsive portfolio showcasing my projects and skills. Built with Vue.js and Tailwind CSS.",
+    "project3": "Stay tuned for more exciting projects! Currently working on several ideas in network automation and web development.",
+    "nextproject": "Next Project",
+    "coomingsoon": "Coming Soon",
+    "call": "Interested in Working Together?",
+    "call1": "I'm always open to discussing new projects, opportunities, or just having a chat about technology and development.",
+    "call2": "Get In Touch",
     "Tools": { "title": "QCNet Tools", "stack": "JS, CSS, HTML" },
     "Mikrotik": { "title": "Mikrotik Script", "stack": "RouterOS Script" },
     "empty": { "title": "Coming Soon", "stack": "Coming Soon" },
     "live": "Live →",
-    "viewAll": "View all →"
+    "viewAll": "View all →",
+    "detail": "Lihat detail"
   },
   "quote": {
     "text": "Don’t let the noise of others’ opinions drown out your own inner voice.",
@@ -53,7 +71,8 @@
       "message": "Message me here",
       "name": "shfylqlby",
       "email": "example@gmail.com",
-      "send": "Send me an email"
+      "send": "Send me an email",
+      "connect": "Connect with me:"
     },
     "form": {
       "name": "Name",

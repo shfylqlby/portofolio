@@ -4,13 +4,13 @@
     <div class="flex justify-between items-center mb-8">
         <div>
           <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">
-            <span class="text-purple-500">#</span>{{ $t("project.title") }}
+            <span class="text-purple-500">#</span>{{ t("project.title") }}
           </h2>
           <div class="w-32 h-px bg-purple-500 mb-8"></div>
         </div>
       <router-link :to="{ path: '/project' }" class="hover:text-purple-400 font-bold">
       <button class="text-gray-400 hover:text-purple-500 transition text-sm">
-        {{ $t("project.viewAll") }} →
+        {{ t("project.viewAll") }} →
       </button>
       </router-link>
     </div>
@@ -34,13 +34,13 @@
             <span class="text-gray-400">DNS Checker</span>
           </div>
           
-          <h4 class="font-bold text-lg text-white mb-2">{{ $t("project.Tools.title") }}</h4>
-          <p class="text-gray-400 text-sm mb-4">{{ $t("project.Tools.stack") }}</p>
+          <h4 class="font-bold text-lg text-white mb-2">{{ t("project.Tools.title") }}</h4>
+          <p class="text-gray-400 text-sm mb-4">{{ t("project.Tools.stack") }}</p>
           
           <div class="flex gap-3">
-            <a href="https://qcnet-tools.vercel.app/" target="_blank">
+            <a href="https://qcnet-tools.netlify.app/" target="_blank">
             <button class="text-purple-500 underline hover:text-purple-400 transition">
-              {{ $t("project.live") }}
+              {{ t("project.live") }}
             </button>
             </a>
           </div>
@@ -60,8 +60,8 @@
             <span class="text-gray-400">RouterOS Script</span>
           </div>
           
-          <h4 class="font-bold text-lg text-white mb-2">{{ $t("project.Mikrotik.title") }}</h4>
-          <p class="text-gray-400 text-sm mb-4">{{ $t("project.Mikrotik.stack") }}</p>
+          <h4 class="font-bold text-lg text-white mb-2">{{ t("project.Mikrotik.title") }}</h4>
+          <p class="text-gray-400 text-sm mb-4">{{ t("project.Mikrotik.stack") }}</p>
           <a href="https://github.com/shfylqlby/mikrotik" target="_blank">
           <button class="text-purple-500 underline hover:text-purple-400 transition">
             {{ $t("project.live") }}
@@ -85,8 +85,8 @@
             <span class="text-gray-400">Coming Soon</span>
           </div>
           
-          <h4 class="font-bold text-lg text-white mb-2">{{ $t("project.empty.title") }}</h4>
-          <p class="text-gray-400 text-sm mb-4">{{ $t("project.empty.stack") }}</p>
+          <h4 class="font-bold text-lg text-white mb-2">{{ t("project.empty.title") }}</h4>
+          <p class="text-gray-400 text-sm mb-4">{{ t("project.empty.stack") }}</p>
           
           <button class="text-purple-500 underline hover:text-purple-400 transition">
             {{ $t("project.live") }}
@@ -97,3 +97,8 @@
     </div>
   </section>
 </template>
+
+<script setup>
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
+</script>

@@ -53,11 +53,11 @@
           <div class="flex gap-3">
             <router-link to="/project/qcnet-tools" class="flex-1">
               <button class="w-full bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg text-sm transition font-medium">
-                View Details
+                {{ t("project.detail") }}
               </button>
             </router-link>
             <a 
-              href="https://shfylqlby.github.io" 
+              href="https://qcnet-tools.netlify.app/" 
               target="_blank" 
               rel="noopener" 
               class="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-lg text-sm transition"
@@ -98,8 +98,7 @@
           </div>
           
           <p class="text-gray-400 text-sm mb-4">
-            Collection of RouterOS scripts for automation, monitoring, and network management. 
-            Includes firewall rules, bandwidth management, and system optimization scripts.
+            {{ t("project.project1") }}
           </p>
           
           <div class="flex flex-wrap gap-2 mb-4">
@@ -110,7 +109,7 @@
           <div class="flex gap-3">
             <router-link to="/project/mikrotik-scripts" class="flex-1">
               <button class="w-full bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg text-sm transition font-medium">
-                View Details
+                {{ t("project.detail") }}
               </button>
             </router-link>
             <a 
@@ -131,7 +130,7 @@
       <div class="bg-gray-800 border border-gray-700 rounded-lg overflow-hidden hover:border-purple-500 transition-all duration-300 group">
         <div class="h-48 bg-gradient-to-br from-purple-600 to-purple-600 relative overflow-hidden">
           <img 
-            src="/src/assets/tools.png" 
+            src="/src/assets/porto.png" 
             alt="QCNet Tools" 
             class="w-full h-full object-cover"
           />
@@ -155,8 +154,7 @@
           </div>
           
           <p class="text-gray-400 text-sm mb-4">
-            This very website you're browsing! A modern, responsive portfolio showcasing my projects and skills. 
-            Built with Vue.js and Tailwind CSS.
+            {{ t("project.project2") }}
           </p>
           
           <div class="flex flex-wrap gap-2 mb-4">
@@ -168,7 +166,7 @@
           <div class="flex gap-3">
             <router-link to="/project/portfolio" class="flex-1">
               <button class="w-full bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg text-sm transition font-medium">
-                View Details
+                {{ t("project.detail") }}
               </button>
             </router-link>
             <a 
@@ -198,12 +196,12 @@
         </div>
         
         <div class="p-6">
-          <h3 class="text-lg font-bold text-gray-400 mb-2">Next Project</h3>
+          <h3 class="text-lg font-bold text-gray-400 mb-2"> {{ t("project.nextproject") }} </h3>
           <p class="text-gray-500 text-sm mb-4">
-            Stay tuned for more exciting projects! Currently working on several ideas in network automation and web development.
+            {{ t("project.project3") }}
           </p>
           <button disabled class="w-full bg-gray-700 text-gray-500 px-4 py-2 rounded-lg text-sm cursor-not-allowed">
-            Coming Soon
+            {{ t("project.coomingsoon") }}
           </button>
         </div>
       </div>
@@ -212,13 +210,15 @@
 
     <!-- Call to Action -->
     <div class="mt-16 text-center bg-gray-800 border border-gray-700 rounded-lg p-8">
-      <h2 class="text-2xl font-bold text-white mb-4">Interested in Working Together?</h2>
+      <h2 class="text-2xl font-bold text-white mb-4">
+        {{ t("project.call") }}
+      </h2>
       <p class="text-gray-400 mb-6 max-w-2xl mx-auto">
-        I'm always open to discussing new projects, opportunities, or just having a chat about technology and development.
+        {{ t("project.call1") }}
       </p>
       <router-link to="/contact">
         <button class="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-medium transition">
-          Get In Touch
+          {{ t("project.call2") }}
         </button>
       </router-link>
     </div>

@@ -21,19 +21,37 @@
   },
   "about": {
     "title": "tentang-saya",
+    "funfact": "fakta-menyenangkan-saya",
+    "funfactdesc1": "Saya bisa mendengarkan lagu yang sama berulang-ulang sepanjang hari tanpa merasa bosan.",
+    "funfactdesc2": "Saya memerlukan waktu lebih lama untuk memilih apa yang akan dimakan daripada sebenarnya memakannya.",
+    "funfactdesc3": "Saya selalu berkata 'satu episode lagi'… lalu menyelesaikan seluruh musim.",
+    "funfactdesc4": "Saya suka membuat daftar periksa, bahkan untuk tugas yang paling sederhana.",
+    "funfactdesc5": "Saya membuka terlalu banyak tab browser karena 'Nanti akan saya baca'.",
+    "funfactdesc6": "Saya membalas pesan dalam pikiran saya dan lupa untuk benar-benar mengirimnya.",
+    "who": "Siapa saya?",
     "desc": "Saya adalah seorang insinyur jaringan dan pengembang web yang bersemangat dalam membangun aplikasi web yang efisien dan mengoptimalkan sistem jaringan. Saya senang mempelajari teknologi baru dan menciptakan proyek-proyek yang menyelesaikan masalah nyata.",
     "desc2": "Saya selalu menjelajahi ide-ide dan teknologi baru, melakukan eksperimen dengan proyek-proyek, dan mencari peluang untuk menerapkan keterampilan saya.",
+    "desc3": "Saya seorang teknisi jaringan yang berbasis di Pekalongan. Saya memiliki spesialisasi di bidang routing, switching, manajemen IP, konfigurasi VLAN, serta DNS, VPN, dan pemantauan jaringan untuk membangun jaringan yang terstruktur, stabil, dan skalabel.",
     "button": "Baca selengkapnya →"
   },
   "project": {
     "title": "proyek",
     "title2": "Kumpulan proyek yang telah saya kerjakan, mulai dari alat administrasi jaringan hingga aplikasi web. Setiap proyek mewakili tantangan dan pengalaman belajar yang unik dalam perjalanan pengembangan saya.",
     "project": "Alat administrasi jaringan yang menampilkan kalkulator IPv4, kalkulator bandwidth, pemeriksa DNS, dan berbagai utilitas jaringan untuk insinyur jaringan.",
+    "project1": "Kumpulan skrip RouterOS untuk otomatisasi, pemantauan, dan manajemen jaringan. Termasuk aturan firewall, manajemen bandwidth, dan skrip optimasi sistem.",
+    "project2": "Situs web inilah yang sedang Anda jelajahi! Portofolio modern dan responsif yang menampilkan proyek dan keterampilan saya. Dibangun dengan Vue.js dan Tailwind CSS.",
+    "project3": "Nantikan proyek-proyek menarik lainnya! Saat ini sedang mengerjakan beberapa ide dalam otomatisasi jaringan dan pengembangan web.",
+    "nextproject": "Proyek Berikutnya",
+    "coomingsoon": "Segera Hadir",
+    "call": "Tertarik untuk Bekerja Sama?",
+    "call1": "Saya selalu terbuka untuk membahas proyek baru, peluang, atau sekadar mengobrol tentang teknologi dan pengembangan.",
+    "call2": "Hubungi Saya",
     "Tools": { "title": "QCNet Tools", "stack": "JS, CSS, HTML" },
     "Mikrotik": { "title": "Mikrotik Script", "stack": "RouterOS Script" },
     "empty": { "title": "Coming Soon", "stack": "Coming Soon" },
     "live": "Lihat →",
-    "viewAll": "Lihat semua →"
+    "viewAll": "Lihat semua →",
+    "detail": "Lihat detail"
   },
   "quote": {
     "text": "Jangan biarkan kebisingan dari pendapat orang lain menenggelamkan suara hati Anda sendiri.",
@@ -52,7 +70,8 @@
     "messageBox": {
       "title": "Hubungi saya di sini",
       "user": "@shfylqlby",
-      "email": "shofiyulqalby@gmail.com"
+      "email": "shofiyulqalby@gmail.com",
+      "connect": "Terhubung dengan saya:"
     },
     "form": {
       "name": "Nama",
