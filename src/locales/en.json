@@ -67,17 +67,15 @@
   },
   "contact": {
     "title": "contacts",
-    "messageMe": "My Social Media",
-      "message": "Message me here",
-      "name": "shfylqlby",
-      "email": "example@gmail.com",
-      "send": "Send me an email",
-      "connect": "Connect with me:"
-    },
-    "form": {
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "button": "Send"
+    "whoami": "Who am I?",
+      "message": "I'm interested in freelance opportunities. However,",
+      "message2": "if you have other request or question,",
+      "message3": "don't hesitate to contact me",
+      "currently": "Currently",
+      "message4": "Message me here",
+      "media": "all-media",
+      "location": "Based in Semarang, ID",
+      "work": "Working at QCNET",
+      "opportunities": "Open for opportunities"
     }
 }

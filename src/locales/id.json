@@ -66,17 +66,15 @@
   },
   "contact": {
     "title": "kontak",
-    "messageMe": "Media Sosial Saya",
-      "message": "Hubungi saya di sini",
-      "name": "shfylqlby",
-      "email": "example@gmail.com",
-      "send": "Kirim email kepada saya",
-      "connect": "Terhubung dengan saya:"
-    },
-    "form": {
-      "name": "Nama",
-      "email": "Email",
-      "message": "Pesan",
-      "button": "Kirim Pesan"
+    "whoami": "Siapa aku?",
+      "message": "Aku tertarik jika ada tawaran freelance. Tapi,",
+      "message2": "jika kamu memiliki permintaan atau pertanyaan lain,",
+      "message3": "jangan ragu untuk menghubungiku",
+      "currently": "Saat ini",
+      "message4": "Kirim pesan di sini",
+      "media": "semua-media",
+      "location": "Berdomisili di Semarang, ID",
+      "work": "Bekerja di QCNET",
+      "opportunities": "Terbuka untuk peluang baru"
     }
 }
