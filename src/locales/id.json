@@ -67,17 +67,16 @@
   "contact": {
     "title": "kontak",
     "messageMe": "Media Sosial Saya",
-    "messageBox": {
-      "title": "Hubungi saya di sini",
-      "user": "@shfylqlby",
-      "email": "shofiyulqalby@gmail.com",
+      "message": "Hubungi saya di sini",
+      "name": "shfylqlby",
+      "email": "example@gmail.com",
+      "send": "Kirim email kepada saya",
       "connect": "Terhubung dengan saya:"
     },
     "form": {
       "name": "Nama",
       "email": "Email",
       "message": "Pesan",
-      "button": "Kirim"
+      "button": "Kirim Pesan"
     }
-  }
 }
