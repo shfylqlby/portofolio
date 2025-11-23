@@ -57,7 +57,7 @@
               </button>
             </router-link>
             <a 
-              href="https://qcnet-tools.netlify.app/" 
+              href="https://tools.shofiyulqalby.dev" 
               target="_blank" 
               rel="noopener" 
               class="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-lg text-sm transition"

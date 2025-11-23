@@ -38,7 +38,7 @@
           <p class="text-gray-400 text-sm mb-4">{{ t("project.Tools.stack") }}</p>
           
           <div class="flex gap-3">
-            <a href="https://qcnet-tools.netlify.app/" target="_blank">
+            <a href="https://tools.shofiyulqalby.dev" target="_blank">
             <button class="text-purple-500 underline hover:text-purple-400 transition">
               {{ t("project.live") }}
             </button>
